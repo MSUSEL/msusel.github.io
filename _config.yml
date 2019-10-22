@@ -12,8 +12,6 @@ description:      'Welcome to Montana State University Software Engineering Labs
 url:              https://msusel.github.io
 baseurl:          /
 
-paginate:         5
-
 # Custom vars
 version:          2.1.0
 
