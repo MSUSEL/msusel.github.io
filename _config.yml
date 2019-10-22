@@ -9,11 +9,11 @@ permalink:        pretty
 title:            MSU*SEL
 tagline:          'Montana State University Software Engineering Labs'
 description:      'Welcome to Montana State University Software Engineering Labs'
-url:              https://msusel.github.io
+url:              https://MSUSEL.github.io
 baseurl:          /
 
 # Custom vars
 version:          2.1.0
 
 github:
-  repo:           https://github.com/MSUSEL
+  repo:           https://github.com/MSUSEL/MSUSEL.github.io
