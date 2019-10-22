@@ -2,21 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="87f03ae0-2997-4625-a4aa-a5abc275553a" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Gemfile" beforeDir="false" afterPath="$PROJECT_DIR$/Gemfile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_config.yml" beforeDir="false" afterPath="$PROJECT_DIR$/_config.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/2012/02/06/whats-jekyll/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/2012/02/06/whats-jekyll/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/2012/02/07/example-content/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/2012/02/07/example-content/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/2013/12/28/introducing-hyde/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/2013/12/28/introducing-hyde/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/404.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/404.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/LICENSE.md" beforeDir="false" afterPath="$PROJECT_DIR$/_site/LICENSE.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/_site/atom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/_site/atom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/docs/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/docs/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/people/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/people/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/projects/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/projects/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/publications/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/publications/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/sonarqube_plugins/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/sonarqube_plugins/index.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -83,7 +70,7 @@
       <workItem from="1571690532948" duration="331000" />
       <workItem from="1571690879919" duration="3448000" />
       <workItem from="1571694434636" duration="844000" />
-      <workItem from="1571752516665" duration="14986000" />
+      <workItem from="1571752516665" duration="15282000" />
     </task>
     <servers />
   </component>
