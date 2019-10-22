@@ -6,7 +6,7 @@ highlighter:      rouge
 permalink:        pretty
 
 # Setup
-title:            MSU-SEL
+title:            MSU*SEL
 tagline:          'Montana State University Software Engineering Labs'
 description:      'Welcome to Montana State University Software Engineering Labs'
 url:              https://msusel.github.io
