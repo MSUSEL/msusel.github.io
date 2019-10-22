@@ -8,3 +8,4 @@
 - https://packetlife.net/media/library/16/Markdown.pdf
 - https://github.com/jekyll/jekyll/wiki/Sites
 - https://github.com/collections/github-pages-examples
+- https://github.com/poole/hyde#readme
