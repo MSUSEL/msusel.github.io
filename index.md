@@ -3,6 +3,7 @@ layout: default
 title: Home
 ---
 # About
+[//]: TODO: Update our about section
 The software Engineering Laboratory (SEL) is primarily concerned with studies that deal with the empirical understanding of software phenomena. 
 Over the years we have built a foundation on research that explores how software design patterns evolve. 
 Design patterns can be thought of as micro-architectures with well defined structure and behavior, thus changes observed over the evolution of their lifespans can be measured against higher level abstractions. 
