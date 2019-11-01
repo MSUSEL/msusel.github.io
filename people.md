@@ -12,13 +12,10 @@ Dr. Izurieta has approximately 16 years experience working for various R&D labs 
 When not teaching, Clem and his wife(Sharlyn) can be found in the local trails, running, hiking or snow shoeing!
 
 ## Derek Reimanis
-![Derek Reimanis](/images/derek.png){:style="float: left;margin-right: 7px;margin-top: 7px;"}
-I am a PhD student in Computer Science at MSU-Bozeman. 
-I am from Golden, Colorado, a mountain town centered around a small college. 
-I held an internship in Golden this past summer with CoorsTek, the world's largest ceramics manufacturing company. 
-While there, I programmed with software to make it easier for others to record dimensional analysis tests of ceramic parts. 
-My interests in computing lie primarily in networking and system administration. I enjoy learning of the challenges that new networking algorithms must face. 
-Also, and in part due to my internship, I am proficient at software testing; making sure that a user will not be confused or have difficulties with a process.
+![Derek Reimanis](/images/derek.png){:style="float: left;margin-right: 7px;margin-top: 7px;" height="28%" width="28%"}
+Dr. Derek Reimanis is currently a course assistant for the Empirical Software Engineering course at Montana State University, while eagerly awaiting funding to be finalized for a post-doc project focusing on cyber-security research. His research interests center around software quality assurance, incorporating software process automation, software design, technical debt, and empirical software engineering.
+Derek has lived in Colorado and Montana most of his life. He is an avid backpacker, aspiring mountaineer, and skier. 
+
 
 [//]: TODO (DR): David entry
 ## David Rice
@@ -28,6 +25,8 @@ Coming from Seattle, WA and also living in Kalispell, MT and Bozeman, MT, he con
 David has interest in everything software engineering with a love of good design and architecture.
 His research focuses on quality analysis, assessment, tool support, the subjectivity of quality, and developing a robust framework for experimentation in software quality.
 
-[//]: TODO (TR): Thane Rice entry
-[//]: TODO (AJ): Andrew Rice entry
+[//]: TODO (TR): Thane Richards entry
+[//]: TODO (AJ): Andrew Johnson entry
 [//]: TODO: Past members entry
+![Rachael (Luhr) Reimanis](/images/rachael.jpg){:style="float: left;margin-right: 7px;margin-top: 7px;" height="25%" width="25%"}
+Rachael (Luhr) Reimanis is a Montana native with interests in applied technical debt management as well as software management strategies. Rachael graduated with her Master's degree in Spring 2015, the topic of her thesis pertaining to technical debt management in scientific software systems. Rachael is employed as a senior software engineer at [Workiva Inc.](https://www.workiva.com/), a leader in financial reporting software. Rachael enjoys backpacking, hiking, running, cooking, baking, and traveling the world!

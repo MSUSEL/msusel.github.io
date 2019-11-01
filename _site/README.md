@@ -38,6 +38,7 @@ There are likely fixes to this.
 
 
 ### TODO
+- Create build server to facilitate Jekyll markdown compiling wihtout need of a development environment.
 - Put markdown pages in their own *pages* folder. Will likely need to use Jekyll collections.
 - Have markdown docs files autogenerate a table on contents on the right hand side of page.
 - Address all todos marked in the project.
