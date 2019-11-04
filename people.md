@@ -25,8 +25,15 @@ Coming from Seattle, WA and also living in Kalispell, MT and Bozeman, MT, he con
 David has interest in everything software engineering with a love of good design and architecture.
 His research focuses on quality analysis, assessment, tool support, the subjectivity of quality, and developing a robust framework for experimentation in software quality.
 
+## Andrew Johnson 
+![Andrew Johnson](/images/andrew.png){:style="float: left;margin-right: 7px;margin-top: 7px;"}
+Andrew Johnson is a doctoral student at the Gianforte School of Computing.
+He has lived in Washington, California, and Montana, but decided to stay in Montana for his undergraduate degree in Helena, then come to Bozeman to continue his education.
+Andrew's research focuses on the relationship between software quality and security. 
+Andrew enjoys the outdoors and is planning on replacing his picture as soon as he catches a bigger fish than the one pictured.
+
 [//]: TODO (TR): Thane Richards entry
-[//]: TODO (AJ): Andrew Johnson entry
 [//]: TODO: Past members entry
+## Rachael (Luhr) Reimanis
 ![Rachael (Luhr) Reimanis](/images/rachael.jpg){:style="float: left;margin-right: 7px;margin-top: 7px;" height="25%" width="25%"}
 Rachael (Luhr) Reimanis is a Montana native with interests in applied technical debt management as well as software management strategies. Rachael graduated with her Master's degree in Spring 2015, the topic of her thesis pertaining to technical debt management in scientific software systems. Rachael is employed as a senior software engineer at [Workiva Inc.](https://www.workiva.com/), a leader in financial reporting software. Rachael enjoys backpacking, hiking, running, cooking, baking, and traveling the world!
