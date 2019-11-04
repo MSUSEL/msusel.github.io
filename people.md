@@ -6,8 +6,8 @@ permalink: /people/
 
 ## Dr. Clemente Izurieta (Director)
 ![Dr. Clemente Izurieta](/images/clem.png){:style="float: left;margin-right: 7px;margin-top: 7px;"}
-Dr. Izurieta is an Assistant Professor in the Gianforte School of Computing department at Montana State University. 
-Born in Santiago, Chile, his research interests include empirical software engineering, design and architecture of software systems, design patterns, the measurement of software quality and ecological modelling. 
+Dr. Izurieta is an Associate Professor in the Gianforte School of Computing department at Montana State University. 
+Born in Santiago, Chile, his research interests include empirical software engineering, design and architecture of software systems, design patterns, the measurement of software quality and cybersecurity. 
 Dr. Izurieta has approximately 16 years experience working for various R&D labs at Hewlett Packard and Intel Corporation. 
 When not teaching, Clem and his wife(Sharlyn) can be found in the local trails, running, hiking or snow shoeing!
 
