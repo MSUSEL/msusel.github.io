@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: docsPage
 title: Docs
 permalink: /docs/
 ---

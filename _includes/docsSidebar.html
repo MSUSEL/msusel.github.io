@@ -1,0 +1,40 @@
+<div class="docs-sidebar">
+  <div class="container docs-sidebar-sticky">
+    <div class="docs-sidebar-about">
+      <h1>
+        <a href="{{ site.baseurl }}">
+          {{ site.title }} Docs
+        </a>
+      </h1>
+    </div>
+
+    <nav class="docs-sidebar-nav">
+      <a class="docs-sidebar-nav-item{% if page.url == site.baseurl %} active{% endif %}" href="/">Home</a>
+      </a>
+
+      {% comment %}
+        The code below dynamically generates a docs-sidebar nav of pages with
+        `layout: docsPage` in the front-matter. See readme for usage.
+      {% endcomment %}
+
+      {% assign pages_list = site.pages %}
+      {% for node in pages_list %}
+        {% if node.title != null %}
+          {% if node.layout == "docsPage" %}
+            <a class="docs-sidebar-nav-item{% if page.url == node.url %} active{% endif %}" href="{{ node.url }}">{{ node.title }}</a>
+			{% for section in node.sections %}
+				{% assign sectionurl = node.url | append: "#" | append: section[0] | replace: ' ', '-'  %}
+				
+				<a class="docs-sidebar-nav-item" href="{{ sectionurl }}">--{{ section }}</a>
+			{% endfor %}
+          {% endif %}
+        {% endif %}
+      {% endfor %}
+
+      <a class="docs-sidebar-nav-item" href="{{ site.github.repo }}">GitHub</a>
+      <span class="docs-sidebar-nav-item">Currently v{{ site.version }}</span>
+    </nav>
+
+    <p>&copy; {{ site.time | date: '%Y' }}. All rights reserved.</p>
+  </div>
+</div>

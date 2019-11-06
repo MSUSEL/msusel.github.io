@@ -115,6 +115,58 @@ a.sidebar-nav-item:focus {
 }
 
 
+/* Docs sidebar
+ * This defines the sidebar as found on the 'Docs' pages.
+ */
+
+
+.docs-sidebar {
+  text-align: center;
+  padding: 2rem 1rem;
+  color: rgba(255,255,255,.5);
+  background-color: #202020;
+  overflow-y: scroll
+}
+@media (min-width: 48em) {
+  .docs-sidebar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    width: 18rem;
+    text-align: left;
+  }
+}
+
+/* docs-sidebar links */
+.docs-sidebar a {
+  color: #fff;
+}
+
+/* About section */
+.docs-sidebar-about h1 {
+  color: #fff;
+  margin-top: 0;
+  font-family: "Abril Fatface", serif;
+  font-size: 3.25rem;
+}
+
+/* docs-sidebar nav */
+.docs-sidebar-nav {
+  margin-bottom: 1rem;
+}
+.docs-sidebar-nav-item {
+  display: block;
+  line-height: 1.75;
+}
+a.docs-sidebar-nav-item:hover,
+a.docs-sidebar-nav-item:focus {
+  text-decoration: underline;
+}
+.docs-sidebar-nav-item.active {
+  font-weight: bold;
+}
+
 /* Container
  *
  * Align the contents of the site above the proper threshold with some margin-fu

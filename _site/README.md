@@ -23,7 +23,10 @@ The following instructions describe how to made changes to the website starting 
     ```
   - On saving, Jekyll will automatically compile the markdown into HTML and add the new page as a content link on the left hand side of the website.
   - Confirm the changes look correct locally by saving and going to `localhost:4000`
-  - Publish the changes to <https://msusel.github.io/> by commiting the changes and pushing to master. The rest is handled automatically but can take a few minutes to reflect all changes.
+  - Publish the changes to <https://msusel.github.io/> by commiting the changes and pushing to master. 
+  **(Note: On saving, automatically generated code (.xml, .html, etc) will be added to the `_site` folder.
+  That code must be added and committed to master in order for the site to update.)**
+  The rest is handled automatically but can take a few minutes to reflect all changes.
   - Ensure the changes didn't break the website, revert the commit if so.
 
 
