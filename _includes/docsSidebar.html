@@ -23,7 +23,8 @@
           {% if node.layout == "docsPage" %}
             <a class="docs-sidebar-nav-item{% if page.url == node.url %} active{% endif %}" href="{{ node.url }}">{{ node.title }}</a>
 			{% for section in node.sections %}
-				{% assign sectionurl = node.url | append: "#" | append: section | replace: ' ', '-' | downcase %}
+				{% assign section = section | downcase %}
+				{% assign sectionurl = node.url | append: "#" | append: section | replace: ' ', '-' %}
 				
 				<a class="docs-sidebar-nav-item" href="{{ sectionurl }}">--{{ section }}</a>
 			{% endfor %}
