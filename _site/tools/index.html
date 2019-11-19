@@ -101,7 +101,27 @@
 			
 				
 				
+				<a class="docs-sidebar-nav-item" href="/tools/#awesome-static-analysis">--Awesome Static Analysis</a>
+			
+				
+				
 				<a class="docs-sidebar-nav-item" href="/tools/#iplasma">--iPlasma</a>
+			
+				
+				
+				<a class="docs-sidebar-nav-item" href="/tools/#marple">--MARPLE</a>
+			
+				
+				
+				<a class="docs-sidebar-nav-item" href="/tools/#roslynator">--Roslynator</a>
+			
+				
+				
+				<a class="docs-sidebar-nav-item" href="/tools/#nist-sard">--NIST SARD</a>
+			
+				
+				
+				<a class="docs-sidebar-nav-item" href="/tools/#swamp">--SWAMP</a>
 			
           
         
@@ -124,17 +144,50 @@
 
     <div class="content container">
       <h1 id="tools">Tools</h1>
-
 <p>This page will provide documentation for tools used or considered for use by the lab. The title of each tool section will be a link to the 
 associated website or location of the tool (if available), and references are included for further reading on each tool.</p>
 
-<h2 id="iplasma"><a href="http://loose.upt.ro/iplasma/">iPlasma</a></h2>
+<h2 id="awesome-static-analysis"><a href="https://endler.dev/awesome-static-analysis/">Awesome Static Analysis</a></h2>
+<p>Awesome Static Analysis is an community contributed collection of static analysis tools.</p>
 
-<p>iPlasma is the integrated Platform for software modeling and analysis. 
+<h2 id="iplasma"><a href="http://loose.upt.ro/iplasma/">iPlasma</a></h2>
+<p>iPlasma (unsupported) is the integrated Platform for software modeling and analysis. 
 This tool measures and visualizes design-based code smells using an ‘overview pyramid’ that considers three structural aspects of a system (size and complexity, coupling, and inheritance). These aspects are measured using several design-focused metrics, and are then ranked against other benchmarked projects. The results from this tool can be used to identify design smells and disharmonies, following Marinescu’s (the creator of this tool) method of detection using design strategies.</p>
 
 <h3 id="iplasma-references">iPlasma References</h3>
 <p>Lanza, Michele, and Radu Marinescu. <em>Object-oriented metrics in practice: using software metrics to characterize, evaluate, and improve the design of object-oriented systems.</em> Springer Science &amp; Business Media, 2007.</p>
+
+<h2 id="marple"><a href="http://www.essere.disco.unimib.it/marple-2/">MARPLE</a></h2>
+<blockquote>
+  <p>The MARPLE (Metrics and Architecture Recognition PLug-in for Eclipse) Project focuses on the development of a complete tool for the recognition of software architectures and of design patterns (also with the help of metrics, both common object-oriented and new ones) inside Java programs. As far as the Design Pattern Detection activity is concerned, the analysis provided by the tool are static and based upon the core concept of the identification of the so-called Design Pattern Clues, which are particular code structures and details which should give hints about the presence of design pattern inside the code.</p>
+</blockquote>
+
+<h2 id="roslynator"><a href="https://github.com/JosefPihrt/Roslynator">Roslynator</a></h2>
+<p>Roslynator is an open source collection of 500+ analyzers, refactorings and fixes for C#. This project is powered by <a href="https://github.com/dotnet/roslyn">Roslyn</a>, a .NET compiler for C#.
+Roslynator is used in our C# QATCH quality model. It can be configured as an extension for Visual Studio and Visual Studio Code.</p>
+
+<h2 id="nist-sard"><a href="https://samate.nist.gov/SRD/index.php">NIST SARD</a></h2>
+<p>The National Institute of Standards and Technology has put together the Software Assurance Reference Dataset (SARD) Project as a set of programs that exhibit a plethora of flaws.
+This project give a massive collection which allows us to find and download projects for testing tools or benchmarking for static analysis. 
+<a href="https://www.csiac.org/journal-article/sard-thousands-of-reference-programs-for-software-assurance/">This article</a> gives a good overview of the purpose of SARD and how to use it.</p>
+
+<h2 id="swamp"><a href="https://continuousassurance.org/">SWAMP</a></h2>
+<blockquote>
+  <p>The Software Assurance Marketplace (SWAMP) is an open, no-cost, high-performance computing platform designed to serve as a resource to the software community. Created to advance the state of cybersecurity, protect critical infrastructures, and improve the resilience of open-source software (applications, libraries, etc.), the ultimate goal of the SWAMP is to provide higher quality and more secure software for government agencies, businesses, academia, and end users. The SWAMP was developed to lower the barriers for software and tool developers, researchers, and educators/students (Audience/User Groups) to do continuous software assurance. By offering multiple software analysis tools and a library of software applications with known vulnerabilities, the SWAMP is committed to making it easier to integrate security into the software development life cycle.</p>
+</blockquote>
+
+<blockquote>
+  <p>There are two ways to use the SWAMP: the ready-to-use cloud computing platform at mir-swamp.org and the SWAMP-in-a-Box (SiB) open-source distribution downloadable from GitHub.</p>
+</blockquote>
+
+<p>SWAMP currently contains 27 open source and 4 commercial analysis tools (as of 2017), as well as 500 sample projects to run these tools on. 
+These sample projects include some of the JULIET suite of test cases, which are designed to each contain a specific CWE.</p>
+
+<p>This tool is unique because it can be run on the cloud, requiring that your code be uploaded to their site. 
+This means that this tool can offer a lot while requiring very little in terms of computations.</p>
+
+<h3 id="swamp-references">SWAMP References</h3>
+<p>See <a href="https://continuousassurance.org/about-us/white-papers-capabilities/">this page</a> for documentation and white papers on SWAMP.</p>
 
     </div>
 
