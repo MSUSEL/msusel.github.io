@@ -6,15 +6,15 @@ permalink: /people/
 
 ## Dr. Clemente Izurieta (Director)
 ![Dr. Clemente Izurieta](/images/clem.png){:style="float: left;margin-right: 7px;margin-top: 7px;"}
-Dr. Izurieta is an Associate Professor in the Gianforte School of Computing department at Montana State University. 
-Born in Santiago, Chile, his research interests include empirical software engineering, design and architecture of software systems, design patterns, the measurement of software quality and cybersecurity. 
-Dr. Izurieta has approximately 16 years experience working for various R&D labs at Hewlett Packard and Intel Corporation. 
-When not teaching, Clem and his wife(Sharlyn) can be found in the local trails, running, hiking or snow shoeing!
+Dr. Izurieta is an Associate Professor in the Gianforte School of Computing department at Montana State University.
+Born in Santiago, Chile, his research interests include empirical software engineering, design and architecture of software systems, design patterns, the measurement of software quality and cybersecurity.
+Dr. Izurieta has approximately 16 years experience working for various R&D labs at Hewlett Packard and Intel Corporation.
+When not teaching, Clem and his wife (Sharlyn) can be found in the local trails, running, hiking or snow shoeing!
 
 ## Derek Reimanis
 ![Derek Reimanis](/images/derek.png){:style="float: left;margin-right: 7px;margin-top: 7px;" height="28%" width="28%"}
 Dr. Derek Reimanis is currently a course assistant for the Empirical Software Engineering course at Montana State University, while eagerly awaiting funding to be finalized for a post-doc project focusing on cyber-security research. His research interests center around software quality assurance, incorporating software process automation, software design, technical debt, and empirical software engineering.
-Derek has lived in Colorado and Montana most of his life. He is an avid backpacker, aspiring mountaineer, and skier. 
+Derek has lived in Colorado and Montana most of his life. He is an avid backpacker, aspiring mountaineer, and skier.
 
 
 [//]: TODO (DR): David entry
@@ -25,14 +25,19 @@ Coming from Seattle, WA and also living in Kalispell, MT and Bozeman, MT, he con
 David has interest in everything software engineering with a love of good design and architecture.
 His research focuses on quality analysis, assessment, tool support, the subjectivity of quality, and developing a robust framework for experimentation in software quality.
 
-## Andrew Johnson 
+## Andrew Johnson
 ![Andrew Johnson](/images/andrew.png){:style="float: left;margin-right: 7px;margin-top: 7px;"}
 Andrew Johnson is a doctoral student at the Gianforte School of Computing.
 He has lived in Washington, California, and Montana, but decided to stay in Montana for his undergraduate degree in Helena, then come to Bozeman to continue his education.
-Andrew's research focuses on the relationship between software quality and security. 
+Andrew's research focuses on the relationship between software quality and security.
 Andrew enjoys the outdoors and is planning on replacing his picture as soon as he catches a bigger fish than the one pictured.
 
-[//]: TODO (TR): Thane Richards entry
+## Thane Richard
+![Thane Richard](/images/thane.jpg){:style="float: left;margin-right: 7px;margin-top: 7px;"}
+Thane Richard is a master's student in computer science at Montana State University. Thane grew up in Bozeman and attended Brown University for his undergraduate degree, which he received with honors in Development Studies and Economics in 2009. After graduation, Thane moved to India and founded a podcast network after learning that news and current events are banned on FM radio. This led to an eight year career in media and journalism that included covering India's 2014 general election for [Quartz](https://qz.com), being the first Data Journalist in the Quicken Loans Family of Companies at [StockX](https://stockx.com), founding [Jaunt](https://jauntdetroit.com) in Detroit, and overseeing the [India strategy and operations](https://timesbridge.com) for a dozen global publications that included AdAge, Business Insider, HuffPost, Gizmodo, Weather Channel, and others.
+
+Thane is a relative neophyte in computer science, but is swiftly making up for lost time. He loves to travel and be outdoors and on the water. Thane received his Merchant Mariner Credential in 2019 and is working towards his 200 ton Master's license. He has taught on sailing school vessels and coaches the Bozeman High speech and debate short prep team.
+
 [//]: TODO: Past members entry
 ## Rachael (Luhr) Reimanis
 ![Rachael (Luhr) Reimanis](/images/rachael.jpg){:style="float: left;margin-right: 7px;margin-top: 7px;" height="25%" width="25%"}
