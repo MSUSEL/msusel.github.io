@@ -4,14 +4,14 @@
  <title>MSU*SEL</title>
  <link href="http://localhost:4000/atom.xml" rel="self"/>
  <link href="http://localhost:4000/"/>
- <updated>2019-11-11T12:49:11-05:00</updated>
+ <updated>2019-11-19T12:14:27-07:00</updated>
  <id>http://localhost:4000</id>
  <author>
    <name></name>
    <email></email>
  </author>
 
- 
+
  <entry>
    <title>Introducing Hyde</title>
    <link href="http://localhost:4000/2013/12/28/introducing-hyde/"/>
@@ -55,7 +55,7 @@
 &lt;p&gt;Thanks!&lt;/p&gt;
 </content>
  </entry>
- 
+
  <entry>
    <title>Example content</title>
    <link href="http://localhost:4000/2012/02/07/example-content/"/>
@@ -201,7 +201,7 @@
 &lt;p&gt;Want to see something else added? &lt;a href=&quot;https://github.com/poole/poole/issues/new&quot;&gt;Open an issue.&lt;/a&gt;&lt;/p&gt;
 </content>
  </entry>
- 
+
  <entry>
    <title>What's Jekyll?</title>
    <link href="http://localhost:4000/2012/02/06/whats-jekyll/"/>
@@ -218,6 +218,6 @@
 &lt;p&gt;Find out more by &lt;a href=&quot;https://github.com/mojombo/jekyll&quot;&gt;visiting the project on GitHub&lt;/a&gt;.&lt;/p&gt;
 </content>
  </entry>
- 
+
 
 </feed>
