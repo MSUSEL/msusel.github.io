@@ -16,7 +16,7 @@ sass:
 # Customise atom feed settings (this is where Jekyll-Feed gets configuration information)
 title:		           "MSU Software Engineering Lab"
 #description:	       "software and skiing in any order"
-#author:              "David Rice and Thane Richard"
+author:              "Thane Richard"
 
 # RSS 2.0 can be used instead of Atom by uncommenting following two lines
 #feed:
