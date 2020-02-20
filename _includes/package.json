@@ -1,0 +1,14 @@
+{
+  "name": "@thaneofcawddor/software-quality-weights-and-scores",
+  "main": "4c95adb62b30b979@203.js",
+  "version": "203.0.0",
+  "homepage": "https://observablehq.com/@thaneofcawddor/software-quality-weights-and-scores",
+  "author": {
+    "name": "Thane Richard",
+    "url": "https://observablehq.com/@thaneofcawddor"
+  },
+  "type": "module",
+  "peerDependencies": {
+    "@observablehq/runtime": "4"
+  }
+}
