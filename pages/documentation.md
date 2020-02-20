@@ -26,8 +26,8 @@ The primary project of the MSU Software Engineering Lab is the grant-funded crea
    1. [Requirements](#requirements)
    2. [Where to download](#github-pages-installation)
    3. [Local Installation](#local-installation)
-3. [Our Live Demo](#our-live-demo)
-
+3. [Our Live Demo](/pages/demo_page.html)
+4. [Tool Addition](#tool-addition)
 
 # Introduction
 
@@ -127,4 +127,58 @@ Download to any directory.
 ### Update or Download the Code To Be Evaluated
 Run `$ git fetch` to update your local repository or `$ git clone https://yourcoderepository.com` to create a local directory of the code whose quality you are looking to analyze. Remember, at this time MSUSEL QATCH only has language support for projects written in C#.
 
-The first thing that the
+The first thing that the Project Evaluator will do is recursively look through the project directory for ".sln" files. It may be worth doing a quick visual inspection to make sure you have ".sln" files present or your project may not be compiled in a way that QATCH will understand.
+
+### Building The .jar File
+You only need to build your own .JAR file if you wish to create your own quality matrix. We encourage individuals and teams to do this as the definition of quality is subjective and varies depending on the application of the software (see [What is QATCH?](#what-is-qatch)). However, if you wish to use our generic quality model, you can download the compiled .JAR file here:
+
+- [msusel-qatch-csharp-0.3.0-jar-with-dependencies.jar](/assets/msusel-qatch-csharp-0.3.0-jar-with-dependencies.jar)
+
+If you are using your own derived quality model, navigate to the directory of QATCH (this directory will have a "pom.xml" file in it) and run `$ mvn install`.
+
+```bash
+$ cd ~/path/to/your/QATCH/directory/msu-sel-qatch-0.3.0/
+$ mvn install
+```
+
+If this fails, you can include the flag `-Dmaven.test.skip=true` to create `$ mvn install -Dmaven.test.skip=true`. We are working on having testing happen remotely as part of a hosted build process where you can upload a quality model and receive a .jar file. But for now, testing! Or...no testing...if you want.
+
+### Configure .properties
+Once maven has finished building, you can look for a .properties file in the directory path `src/test/resources/config/singleprojectevaluator`. If you didn't bother with maven and chose to use our .jar file or you cannot find your .properties, you can create your own .properties file! Copy the following text into a text editor and save it as `single_project_evaluation.properties`.
+
+```properties
+# Config file for CSharp QATCH Single Project Evaluation
+
+### Path to project or solution to be evaluated root folder.
+# Example: C:/Users/username/projects/MyCSharpSolution if a .sln or .csproj file exists in the MyCSharpSolution directory.
+project.root=C:/path/to/project/being/evaluated/C-Sharp-Project/
+
+### Path to folder to place quality analysis results file in
+results.directory=C:/Users/Desktop/Quality-Results/
+
+### Path to quality model file.
+# Example: C:/Users/username/quality_models/test_single_project_eval_qm.json
+qm.filepath=C:/Users/username/quality_models/test_single_project_eval_qm.json
+
+### Path to MSBuild Bin directory
+# Wherever your local copy of MSBuild lives. Example: C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/MSBuild/Current/Bin
+msbuild.bin=C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/MSBuild/Current/Bin
+```
+
+### Running QATCH
+
+You are finally ready to go. The moment of truth. You can do it.
+
+`run java -jar msusel-qatch-csharp-0.3.0-jar-with-dependencies.jar single_project_evaluation.properties`
+
+If your .properties file is in a different directory, that path should be your second argument. For ease, both the .jar and .properties can live together in the same folder. `msusel-qatch-csharp-0.3.0-jar-with-dependencies.jar` should be edited to reflect the actual name of your .jar file.
+
+### Review the Data
+
+Head on over to the directory you specified and there should be a file called `PROJECTNAME-evalResults.json`. This file can be quite long depending on the size of the project you evaluated. Head over to our [Demonstration Project](/pages/demo_page.html) to see what we are working on to help you best visualize your data in a dashboard.
+
+---
+
+# Tool Addition
+
+More to come here. Stay tuned.
