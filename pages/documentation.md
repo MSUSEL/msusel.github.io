@@ -132,12 +132,12 @@ The first thing that the Project Evaluator will do is recursively look through t
 ### Building The .jar File
 You only need to build your own .JAR file if you wish to create your own quality matrix. We encourage individuals and teams to do this as the definition of quality is subjective and varies depending on the application of the software (see [What is QATCH?](#what-is-qatch)). However, if you wish to use our generic quality model, you can download the compiled .JAR file here:
 
-- [msusel-qatch-csharp-0.3.0-jar-with-dependencies.jar](/assets/msusel-qatch-csharp-0.3.0-jar-with-dependencies.jar)
+- [msusel-qatch-csharp-0.3.0-jar-with-dependencies.jar](/assets/latest_compiled_release/)
 
 If you are using your own derived quality model, navigate to the directory of QATCH (this directory will have a "pom.xml" file in it) and run `$ mvn install`.
 
 ```bash
-$ cd ~/path/to/your/QATCH/directory/msu-sel-qatch-0.3.0/
+$ cd ~/path/to/your/QATCH/directory/msusel-qatch-0.3.0/
 $ mvn install
 ```
 
