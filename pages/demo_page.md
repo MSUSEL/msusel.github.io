@@ -41,13 +41,13 @@ When zooming in on a visualization to find the exact code finding that caused a 
 "findings": [
   {
     "characterNumber": 19,
-    "filePath": "C:\path\to\project\locally\Int2BinaryTests.cs",
+    "filePath": "C:\\path\to\\project\\Int2BinaryTests.cs",
     "lineNumber": 53,
     "severity": 0
   },
   {
     "characterNumber": 19,
-    "filePath": "C:\path\to\project\locally\Int2BinaryTests.cs",
+    "filePath": "C:\\path\to\\project\\Int2BinaryTests.cs",
     "lineNumber": 33,
     "severity": 0
   }
@@ -75,7 +75,7 @@ In the .JSON file, each finding is nested underneath the measure it corresponds 
       },
 
       "** MANY MORE TOOLS **"
-      
+
       ]
 
     "name": "Format Findings",
