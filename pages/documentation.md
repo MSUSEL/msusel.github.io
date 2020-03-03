@@ -55,6 +55,8 @@ Fortunately, the International Organization for Standardization (ISO) has come u
  7. Maintainability
  8. Portability
 
+ ![ISO framework](/assets/img/ISO-25010.jpg)
+
 The QATCH framework uses these eight characteristics of software quality as the foundation upon which the quality model is built. But that still does not answer the "game developer versus autonomous vehicle" dilemma of how to value those eight characteristics.
 
 To address this challenge, an important part of setting up QATCH for use on your software as an individual or as part of a team is taking a calm reflective moment to decide what quality means to you. After coming back from your cave in the mountains, you should update a .CSV file that gives relative weights to each of the characteristics. We have bundled a fairly generic comparison matrix with our QATCH release that you can see [here](https://github.com/msusel-qatch/msusel-qatch).
@@ -82,7 +84,11 @@ Before QATCH considers the values from your comparison matrix, we need to normal
 In terms of how your implementation of QATCH uses this benchmark information, there is a
 
 ### Quality Hierarchy
-Coming soon!
+The best way to describe the quality hierarchy is through an example. Consider the following short software project:
+
+![example](/assets/img/example.jpg)
+
+At the base of the tree (the tree's leaves) are the tools used to actually find issues within source code.
 
 
 ### Tool Selection
