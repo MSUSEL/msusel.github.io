@@ -56,7 +56,7 @@ Fortunately, the International Organization for Standardization (ISO) has come u
  8. Portability
 
  ![ISO framework](/assets/img/ISO-25010.jpg)
- 
+
 The QATCH framework uses these eight characteristics of software quality as the foundation upon which the quality model is built. But that still does not answer the "game developer versus autonomous vehicle" dilemma of how to value those eight characteristics.
 
 To address this challenge, an important part of setting up QATCH for use on your software as an individual or as part of a team is taking a calm reflective moment to decide what quality means to you. After coming back from your cave in the mountains, you should update a .CSV file that gives relative weights to each of the characteristics. We have bundled a fairly generic comparison matrix with our QATCH release that you can see [here](https://github.com/msusel-qatch/msusel-qatch).
@@ -91,12 +91,12 @@ The best way to describe the quality hierarchy is through an example. Consider t
 #### Name: “Tiny Test Project”
 #### Lines of Code: 39
 #### Findings after tool scan:
-RCS1163: 1 finding
-#### “Use AttributeUseageAttribute”
-RCS1018: 2 findings
-#### “Avoid locking on publicly accessible instance”
-SCS0005: 1 finding
-#### “Cookie without SSL Flag”
+  **RCS1163: 1 finding**
+  “Use AttributeUseageAttribute”
+  **RCS1018: 2 findings**
+  “Avoid locking on publicly accessible instance”
+  **SCS0005: 1 finding**
+  “Cookie without SSL Flag”
 
 
 At the base of the tree (the tree's leaves) are the tools used to actually find issues within source code. You will notice that the value of the measure is the quantity of the findings divided by the total lines of code (1/39 = 0.0256, 3/39 = 0.0769).
