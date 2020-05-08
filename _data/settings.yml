@@ -7,6 +7,7 @@ disqus:
 google-ID: 'UA-112060364-2'
 
 menu:
+- {name: 'External Tools', folder: 'pages', file: 'external_tools.html'}
 - {name: 'Documentation', folder: 'pages', file: 'documentation.html'}
 - {name: 'GitHub', link: 'https://github.com/MSUSEL'}
 - {name: 'About', folder: 'pages', file: 'about.html'}
